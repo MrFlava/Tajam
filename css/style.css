@@ -1,9 +1,116 @@
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    margin: 0;
+}
+h4,
+h5 {
+    font-weight: 300;
+    margin: 0;
+    line-height: 2rem;
+}
+h1 {
+    font-size: 4.375rem;
+    line-height: 5.5rem;
+    color:#fff;
+}
+h2 {
+    font-size:1.875rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    font-family: 'playfair_displayblack';
+
+}
+h3 {
+    font-size:1.375rem;
+    line-height: 2.5rem;  
+    text-transform: uppercase;
+    font-family: 'playfair_displaybold';
+}
+h4 {
+    font-size: 0.875rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'robotoblack';
+}
+h5 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color:#223d61;
+    text-transform: uppercase;
+}
+h6 {
+    font-size: 1rem;
+    margin-bottom: .9rem;
+}
+p {
+    line-height: 1.375rem;
+    font-size: 0.875rem;
+}
+p:last-child {
+    margin-bottom: 0px;
+}
+
 .home{
     position:relative;
     padding:70px 0;
-      background: url(../images/homebg.jpg) no-repeat 100% 100%;
+    background: url(../images/homebg.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
+
+.home .container h2 {
+    color: #fff;
+    font-size:2rem;
+}
+
+.home .container p{
+    color: #fff;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 30px
+}
+
+
+.separator {
+    height: 1px;
+    width: 127px;
+    margin: 20px auto;
+    background: #00e0d0;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    padding: .8em;
+    height: 45px;
+    text-align: center;
+    color: #00e0d0;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 0px;
+    margin-top: 20px;
+    background-color: transparent;
+    transition: .5s;
+    border: 1px solid #00e0d0;
+    font-family: 'hammersmith_oneregular';
+
+}
+.btn:hover {
+    background-color:#00e0d0;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #00e0d0;
+}
+
+.btn-primary {
+    background-color: transparent;
+    transition: .5s;
+    padding: 9px 30px;
+}
+
 @media (min-width: 768px){
     .home{
         padding:150px 0}}
