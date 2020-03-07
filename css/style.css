@@ -135,3 +135,8 @@ p:last-child {
     padding: 9px 30px;
 }
 
+.sections {
+    padding-top:85px;
+    padding-bottom: 105px;
+    overflow: hidden;
+}
