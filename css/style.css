@@ -170,7 +170,15 @@ p:last-child {
 .head_title p{
     font-family: 'playfair_displayregular';
 }
-/*.border_devider{
+.separator2 {
+    height: 2px;
+    width: 50px;
+    margin:20px auto;
+    background: #c6c4c9;
+
+}
+
+.border_devider{
     width:100%;
     height: 2px;
     background: #ddd;
@@ -179,12 +187,14 @@ p:last-child {
     display: inline-block;
 
 }
-.expertise{
+
+.service{
     position: relative;
     background: #ffffff;
 }
 .main_service_area{}
-.expertise .single_service {
+.service .service-feature {
+  
     margin-bottom:30px;
     margin-top:20px;
     display: inline-block;
@@ -192,10 +202,14 @@ p:last-child {
 
 }
 
-.expertise .single_service .single_service_icon{
+.service .service-feature  .service-icon{
     margin-bottom: 25px;
 }
-.expertise .single_service .single_service_icon i{
+
+.service .service-feature .service-icon i{
     color:#95e1d3;
     font-size:2rem;
-}*/
+}
+.service .single_service .single_service_content{
+
+}
