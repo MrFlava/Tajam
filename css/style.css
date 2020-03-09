@@ -170,6 +170,7 @@ p:last-child {
 .head_title p{
     font-family: 'playfair_displayregular';
 }
+
 .separator2 {
     height: 2px;
     width: 50px;
@@ -212,4 +213,47 @@ p:last-child {
 }
 .service .single_service .single_service_content{
 
+}
+
+.team{
+    background: url(../images/teambg.jpg) no-repeat center center;
+    overflow:hidden;
+    background-size: cover;
+    color:#fff;
+}
+
+.team .head_title h3{
+    color:#fff;
+}
+.team .single_team_content{
+    border:1px solid #fff;
+    margin-top:30px;
+    transition: all .6s;
+}
+.team .single_team_content:hover{
+    transform: rotateY(360deg);
+}
+
+.team .single_team_content .single_team_img img{
+    width:100%;
+
+}
+.team .single_team_content .single_team_text{
+    padding: 20px 0px;
+}
+.team .single_team_content .single_team_text h4{
+    margin-bottom: .0rem;
+    display: inline-block;
+}
+.team .single_team_content .team .single_team_text p{}
+
+.team .team_hiring_area{
+    margin-top:60px;
+}
+.team .team_hiring_area p{
+    margin-bottom:0;
+}
+.team .team_hiring_area a{
+    margin-top:20px;
+    text-transform: uppercase;
 }
