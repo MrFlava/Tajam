@@ -67,10 +67,7 @@ p:last-child {
 @media (max-width: 992px){
     .navbar-mobile{
     max-height: 340px;
-    overflow: scroll;
-}
-
-    }
+    overflow: scroll;}}
 
 
 .header .menu_nav{
