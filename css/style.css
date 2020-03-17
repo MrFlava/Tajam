@@ -67,8 +67,12 @@ p:last-child {
 @media (max-width: 992px){
     .navbar-mobile{
     max-height: 340px;
-    overflow: scroll;}}
-
+    overflow: scroll;}
+    
+    .grid-item img{
+        width: 100%;
+    }
+}
 
 .header .menu_nav{
     width:100%}
@@ -343,7 +347,6 @@ p:last-child {
 
 .grid{}
 
-.grid-item {}
 .portfolio .grid-item{
     position: relative;
 }
