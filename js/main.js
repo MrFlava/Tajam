@@ -18,4 +18,13 @@ jQuery(document).ready(function ($) {
 
         return false;
     });
+
+
+    $('.portfolio-img').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        },
+    });
+
 });
