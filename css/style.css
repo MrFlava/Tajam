@@ -1,3 +1,10 @@
+/*a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}*/
 html, body{
     background-color: #fff;
     font-size: 0.875rem;
@@ -126,7 +133,7 @@ p:last-child {
 .header .navbar .nav .nav-item .nav-link:after{
     display:none}
 .header .navbar .nav .nav-item:hover .nav-link,
-.header .navbar .nav .nav-item.active .nav-link{
+.header .navbar .nav .nav-item .nav-link.active{
     color:#00e0d0;
     opacity:1}
 
