@@ -137,6 +137,14 @@ p:last-child {
     color:#00e0d0;
     opacity:1}
 
+.header .navbar .nav .nav-item .nav-link.active, .heaer .navbar .nav .nav-item .nav-link.active:hover, .heaer .navbar .nav .nav-item .nav-link.active:focus{
+    color: #00e0d0;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #00e0d0;
+    background: transparent;
+
+}
+
 .overlay {
     background-color: rgba(76, 61, 114, 0.5);
     width: 100%;
