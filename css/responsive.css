@@ -89,7 +89,7 @@ Author URI: http://www.bootstrapthemes.co
         right: 80px;
     } 
     .single_widget ul li a i{
-        width:3%;
+   /*     width:3%;*/
         margin-right:2%;
     }
     .navbar-form {

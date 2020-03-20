@@ -423,13 +423,14 @@ p:last-child {
     background-size: cover;
 }
 .footer_widget .main_widget{
-    padding: 55px 15px 80px 15px; 
+    padding: 55px 15px 10px 15px; 
     overflow: hidden;
 }
 .single_widget{
     margin-bottom:30px;
 }
 .single_widget ul li{
+    list-style-type:none;
     margin-bottom:10px;
 }
 .single_widget ul li a{
